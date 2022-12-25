@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "WlhVEBNHcc5THL5v28U11Kqf9S0YNgJpZ7aNRmudw/+S9zvPfVdyMMcdTVFe7tGeXQVPWWh6cVQ2SqNEprzQBw==",
+  "success": true,
+  "projectFilePath": "G:\\Workspace\\Csharp\\Nez\\Nez.ImGui\\Nez.MG38.ImGui.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KC\\.nuget\\packages\\imgui.net\\1.70.0\\imgui.net.1.70.0.nupkg.sha512",
+    "C:\\Users\\KC\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\KC\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\KC\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\KC\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\KC\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\KC\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\KC\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
