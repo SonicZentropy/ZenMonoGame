@@ -1,12 +1,28 @@
 ﻿namespace LDtkMonogameExample;
 
 using System;
-public static class Program
+static class Program
+
 {
-	[STAThread]
-	private static void Main()
+	private static NezTiledTestGame _game;
+
+	internal static void RunGame()
 	{
-		using LDtkMonogameGame game = new();
-		game.Run();
+		_game = new NezTiledTestGame();
+		_game.Run();
+
+		_game.Dispose();
+
 	}
+
+	/// <summary>
+	/// The main entry point for the application.
+	/// </summary>
+
+	[STAThread]
+	static void Main(string[] args)
+	{
+		RunGame();
+	}
+
 }
