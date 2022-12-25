@@ -75,13 +75,13 @@ public class LDtkMonogameGame : Nez.Core
         camera = new Camera(GraphicsDevice);
 
         renderer = new LDtkRenderer(spriteBatch);
-        file = LDtkFile.FromFile("Content/World.ldtk");
-        spriteSheet = Texture2D.FromFile(GraphicsDevice, System.IO.Path.Combine(System.IO.Path.GetDirectoryName(file.FilePath), "Characters.png"));
+        file = LDtkFile.FromFile("Content/fortloop/world.ldtk");
+        spriteSheet = Texture2D.FromFile(GraphicsDevice, System.IO.Path.Combine(System.IO.Path.GetDirectoryName(file.FilePath), "tileset.png"));
 
 
         world = file.LoadWorld(Worlds.World.Iid);
 
-        LDtkLevel level0 = world.LoadLevel("Level_0");
+        LDtkLevel level0 = world.LoadLevel("0000-Intro");
         LDtkLevel level1 = world.LoadLevel(Worlds.World.Level_1);
 
         CustomLevelDataName levelData = level1.GetCustomFields<CustomLevelDataName>();

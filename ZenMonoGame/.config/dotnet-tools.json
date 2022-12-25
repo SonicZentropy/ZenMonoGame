@@ -31,6 +31,12 @@
       "commands": [
         "mgcb-editor-mac"
       ]
+    },
+    "ldtkmonogame.codegen": {
+      "version": "0.7.0",
+      "commands": [
+        "ldtkgen"
+      ]
     }
   }
 }

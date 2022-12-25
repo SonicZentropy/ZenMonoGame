@@ -29,4 +29,9 @@
         <Message Text="Restoring dotnet tools" Importance="High" />
         <Exec Command="dotnet tool restore" />
     </Target>
+
+<!--    <Target Name="LDtkCodegen" BeforeTargets="BeforeBuild">-->
+<!--        <Exec Command="ldtkgen -i Content/fortloop/world.ldtk" />-->
+<!--    </Target>-->
+    
 </Project>

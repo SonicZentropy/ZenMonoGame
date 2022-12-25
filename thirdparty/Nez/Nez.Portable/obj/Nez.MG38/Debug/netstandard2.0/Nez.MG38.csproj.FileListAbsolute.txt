@@ -18,3 +18,13 @@ G:\Workspace\Csharp\Nez\Nez.Portable\obj\Nez.MG38\Debug\netstandard2.0\Nez.MG38.
 G:\Workspace\Csharp\Nez\Nez.Portable\obj\Nez.MG38\Debug\netstandard2.0\Nez.MG38.csproj.CoreCompileInputs.cache
 G:\Workspace\Csharp\Nez\Nez.Portable\obj\Nez.MG38\Debug\netstandard2.0\Nez.dll
 G:\Workspace\Csharp\Nez\Nez.Portable\obj\Nez.MG38\Debug\netstandard2.0\Nez.pdb
+G:\Workspace\Csharp\ZenMonoGame\thirdparty\Nez\Nez.Portable\bin\Debug\netstandard2.0\Nez.deps.json
+G:\Workspace\Csharp\ZenMonoGame\thirdparty\Nez\Nez.Portable\bin\Debug\netstandard2.0\Nez.dll
+G:\Workspace\Csharp\ZenMonoGame\thirdparty\Nez\Nez.Portable\bin\Debug\netstandard2.0\Nez.pdb
+G:\Workspace\Csharp\ZenMonoGame\thirdparty\Nez\Nez.Portable\obj\Nez.MG38\Debug\netstandard2.0\Nez.MG38.csproj.AssemblyReference.cache
+G:\Workspace\Csharp\ZenMonoGame\thirdparty\Nez\Nez.Portable\obj\Nez.MG38\Debug\netstandard2.0\Nez.MG38.GeneratedMSBuildEditorConfig.editorconfig
+G:\Workspace\Csharp\ZenMonoGame\thirdparty\Nez\Nez.Portable\obj\Nez.MG38\Debug\netstandard2.0\Nez.MG38.AssemblyInfoInputs.cache
+G:\Workspace\Csharp\ZenMonoGame\thirdparty\Nez\Nez.Portable\obj\Nez.MG38\Debug\netstandard2.0\Nez.MG38.AssemblyInfo.cs
+G:\Workspace\Csharp\ZenMonoGame\thirdparty\Nez\Nez.Portable\obj\Nez.MG38\Debug\netstandard2.0\Nez.MG38.csproj.CoreCompileInputs.cache
+G:\Workspace\Csharp\ZenMonoGame\thirdparty\Nez\Nez.Portable\obj\Nez.MG38\Debug\netstandard2.0\Nez.dll
+G:\Workspace\Csharp\ZenMonoGame\thirdparty\Nez\Nez.Portable\obj\Nez.MG38\Debug\netstandard2.0\Nez.pdb
