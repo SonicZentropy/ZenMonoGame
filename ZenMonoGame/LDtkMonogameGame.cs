@@ -1,4 +1,6 @@
-﻿namespace LDtkMonogameExample;
+﻿using Nez;
+
+namespace LDtkMonogameExample;
 
 using System;
 using System.Collections.Generic;
@@ -14,7 +16,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-public class LDtkMonogameGame : Game
+public class LDtkMonogameGame : Nez.Core
 {
     // LDtk stuff
     private LDtkFile file;
@@ -41,11 +43,8 @@ public class LDtkMonogameGame : Game
 
     public LDtkMonogameGame()
     {
-        graphics = new GraphicsDeviceManager(this);
-
-#if UseContentPipeline
-        Content.RootDirectory = "Content";
-#endif
+        Screen.SetSize(1280, 720);
+        
     }
 
     private void MonogameInitialize()
@@ -58,9 +57,6 @@ public class LDtkMonogameGame : Game
         IsMouseVisible = true;
         IsFixedTimeStep = false;
 
-        graphics.PreferredBackBufferWidth = 1280;
-        graphics.PreferredBackBufferHeight = 720;
-        graphics.ApplyChanges();
 
         Window.ClientSizeChanged += (o, e) => pixelScale = Math.Max(GraphicsDevice.Viewport.Height / 180, 1);
 
@@ -72,19 +68,16 @@ public class LDtkMonogameGame : Game
 
     protected override void Initialize()
     {
+        base.Initialize();
+        Window.AllowUserResizing = true;
         MonogameInitialize();
 
         camera = new Camera(GraphicsDevice);
 
-#if UseContentPipeline
-        renderer = new LDtkRenderer(spriteBatch, Content);
-        file = LDtkFile.FromFile("World", Content);
-        spriteSheet = Content.Load<Texture2D>("Characters");
-#else
         renderer = new LDtkRenderer(spriteBatch);
         file = LDtkFile.FromFile("Content/World.ldtk");
         spriteSheet = Texture2D.FromFile(GraphicsDevice, System.IO.Path.Combine(System.IO.Path.GetDirectoryName(file.FilePath), "Characters.png"));
-#endif
+
 
         world = file.LoadWorld(Worlds.World.Iid);
 
